@@ -1,9 +1,87 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
-  <diagram name="第 1 页" id="QpwqigrPZv6CP_UxwNrK">
-    <mxGraphModel>
+  <diagram name="Manufacturing Order Process with Swimlanes" id="QpwqigrPZv6CP_UxwNrK">
+    <mxGraphModel dx="1221" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="T_fVqhd2P8TEpaTDhuyv-1" value="Sales Department" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry width="850" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="T_fVqhd2P8TEpaTDhuyv-2" value="" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;aspect=fixed;" vertex="1" parent="T_fVqhd2P8TEpaTDhuyv-1">
+          <mxGeometry x="50" y="45" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T_fVqhd2P8TEpaTDhuyv-3" value="Check Stock" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="T_fVqhd2P8TEpaTDhuyv-1">
+          <mxGeometry x="150" y="30" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T_fVqhd2P8TEpaTDhuyv-4" value="Goods in Stock?" style="shape=rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="T_fVqhd2P8TEpaTDhuyv-1">
+          <mxGeometry x="350" y="30" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T_fVqhd2P8TEpaTDhuyv-5" value="Confirm Order" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="T_fVqhd2P8TEpaTDhuyv-1">
+          <mxGeometry x="500" y="30" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T_fVqhd2P8TEpaTDhuyv-6" value="Issue Invoice" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="T_fVqhd2P8TEpaTDhuyv-1">
+          <mxGeometry x="900" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T_fVqhd2P8TEpaTDhuyv-7" value="Receive Payment" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="T_fVqhd2P8TEpaTDhuyv-1">
+          <mxGeometry x="1100" y="30" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T_fVqhd2P8TEpaTDhuyv-9" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#000000;strokeWidth=1;rounded=0;" edge="1" parent="T_fVqhd2P8TEpaTDhuyv-1" source="T_fVqhd2P8TEpaTDhuyv-2" target="T_fVqhd2P8TEpaTDhuyv-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_fVqhd2P8TEpaTDhuyv-10" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#000000;strokeWidth=1;rounded=0;" edge="1" parent="T_fVqhd2P8TEpaTDhuyv-1" source="T_fVqhd2P8TEpaTDhuyv-3" target="T_fVqhd2P8TEpaTDhuyv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_fVqhd2P8TEpaTDhuyv-11" value="Yes" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#000000;strokeWidth=1;rounded=0;" edge="1" parent="T_fVqhd2P8TEpaTDhuyv-1" source="T_fVqhd2P8TEpaTDhuyv-4" target="T_fVqhd2P8TEpaTDhuyv-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_fVqhd2P8TEpaTDhuyv-13" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#000000;strokeWidth=1;rounded=0;" edge="1" parent="T_fVqhd2P8TEpaTDhuyv-1" source="T_fVqhd2P8TEpaTDhuyv-5" target="T_fVqhd2P8TEpaTDhuyv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_fVqhd2P8TEpaTDhuyv-14" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#000000;strokeWidth=1;rounded=0;" edge="1" parent="T_fVqhd2P8TEpaTDhuyv-1" source="T_fVqhd2P8TEpaTDhuyv-6" target="T_fVqhd2P8TEpaTDhuyv-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_fVqhd2P8TEpaTDhuyv-16" value="Warehouse" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry y="400" width="850" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="T_fVqhd2P8TEpaTDhuyv-17" value="Retrieve Goods" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="T_fVqhd2P8TEpaTDhuyv-16">
+          <mxGeometry x="150" y="30" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T_fVqhd2P8TEpaTDhuyv-18" value="Raw Material Available?" style="shape=rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="T_fVqhd2P8TEpaTDhuyv-16">
+          <mxGeometry x="350" y="130" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T_fVqhd2P8TEpaTDhuyv-19" value="Order Raw Material" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="T_fVqhd2P8TEpaTDhuyv-16">
+          <mxGeometry x="500" y="130" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T_fVqhd2P8TEpaTDhuyv-20" value="Assemble Product" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="T_fVqhd2P8TEpaTDhuyv-16">
+          <mxGeometry x="700" y="30" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T_fVqhd2P8TEpaTDhuyv-21" value="Ship Goods" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="T_fVqhd2P8TEpaTDhuyv-16">
+          <mxGeometry x="700" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T_fVqhd2P8TEpaTDhuyv-22" value="Yes" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#000000;strokeWidth=1;rounded=0;" edge="1" parent="T_fVqhd2P8TEpaTDhuyv-16" source="T_fVqhd2P8TEpaTDhuyv-18" target="T_fVqhd2P8TEpaTDhuyv-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_fVqhd2P8TEpaTDhuyv-23" value="No" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#000000;strokeWidth=1;rounded=0;" edge="1" parent="T_fVqhd2P8TEpaTDhuyv-16" source="T_fVqhd2P8TEpaTDhuyv-18" target="T_fVqhd2P8TEpaTDhuyv-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_fVqhd2P8TEpaTDhuyv-24" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#000000;strokeWidth=1;rounded=0;" edge="1" parent="T_fVqhd2P8TEpaTDhuyv-16" source="T_fVqhd2P8TEpaTDhuyv-19" target="T_fVqhd2P8TEpaTDhuyv-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_fVqhd2P8TEpaTDhuyv-25" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#000000;strokeWidth=1;rounded=0;" edge="1" parent="T_fVqhd2P8TEpaTDhuyv-16" source="T_fVqhd2P8TEpaTDhuyv-20" target="T_fVqhd2P8TEpaTDhuyv-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_fVqhd2P8TEpaTDhuyv-12" value="No" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#000000;strokeWidth=1;rounded=0;" edge="1" parent="1" source="T_fVqhd2P8TEpaTDhuyv-4" target="T_fVqhd2P8TEpaTDhuyv-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_fVqhd2P8TEpaTDhuyv-26" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#000000;strokeWidth=1;rounded=0;" edge="1" parent="1" source="T_fVqhd2P8TEpaTDhuyv-21" target="T_fVqhd2P8TEpaTDhuyv-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_fVqhd2P8TEpaTDhuyv-8" value="" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=4;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="45" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T_fVqhd2P8TEpaTDhuyv-15" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#000000;strokeWidth=1;rounded=0;" edge="1" parent="1" source="T_fVqhd2P8TEpaTDhuyv-7" target="T_fVqhd2P8TEpaTDhuyv-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
